@@ -1,14 +1,6 @@
 #include <stdio.h>
-
-int main() {
-  /*  
-    Corrija o seguinte programa:
-    #include <stdio.h>
-    main{void}(
-    printf(Existem %d semanas no ano., 56)
-    )
-*/
-
-  printf("Existem %d semanas no ano.", 56);
+  int main() {
+  int a=1; b=2; c=3;
+  printf("Os n ́umeros s~ao: %d, %d e %d\n",a,b,c,d);
   return 0;
 }

@@ -1,0 +1,13 @@
+O que será impresso?
+printf(“\n\t****\n\t*\n\t*\n\t*\n\t*\n\t****\n”);
+
+Resposta - 
+
+A seguinte figura será imprimida (obs - O espaçamento também será imprimido, por conta do comando /t (tab), além de ocorrer as quebras de linha por conta do /n (new line)):
+
+  ****
+  *
+  *
+  *
+  *
+  ****

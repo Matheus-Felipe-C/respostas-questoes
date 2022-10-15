@@ -1,0 +1,8 @@
+O que está errado neste comando?
+printf(“\n %d dividido por %d eh%d e o resto eh%d \n”, x, y, resultado)
+
+Resposta - 
+
+1 - Falta o ponto e vírgula no final do comando.
+
+2 - Falta uma variável a ser imprimida, pois há 4 "%d", enquanto só foram adicionadas 3 variáveis a serem imprimidas.

@@ -1,0 +1,29 @@
+Encontre erro(s) nos programas a seguir
+#include <stdio.h>
+main()
+pirntf ("Olá mundo louco!\n");
+}
+/* Um programa em linguagem C
+#include <stdio.h>
+main() {
+//Imprime uma string:
+printf ("d\n", 1+2*55);
+}
+
+Resposta - 
+
+Programa 1:
+
+1 - Não há o tipo da função main, é necessário declarar o tipo da função antes de seu nome, utilizando o tipo int e que, por obrigação, necessita retornar um número (neste caso, o 0).
+
+2 - O printf foi escrtio de maneira errada.
+
+3 - Por não ter o tipo, o programador também não colocou o valor do retorno da função, que, a não ser quando o tipo for void, é obrigatório em todas as funções.
+
+4 - Quando o programa for executado, letras com acento podem se tornar outros caracteres. Para manter a integridade da palavra, a língua deve ser mudada usando a função setlocale da biblioteca locale.h.
+
+Programa 2:
+
+1 - Mesmo erro do programa 1, o programador não adicionou o tipo da função.
+
+2 - O programador esqueceu de digitar o "%" antes do d. Além de que, apesar de que o printf transforma qualquer informação dada a ele em uma string que pode ser imprimida no console, ele ainda está imprimindo o resultado de uma conta matemática, além de usar o "%d", que serve para imprimir um número inteiro no console.
